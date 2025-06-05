@@ -105,10 +105,11 @@ To run the project:
 
 Open your browser and navigate to `http://localhost:5173` (or the port Vite provides) to see the application.
 
-## Project Structure
 
-The project is organized into `frontend` and `backend` directories.
-GYM/
+## 📁 Project Structure
+
+```
+MERN/
 ├── backend/
 │   ├── node_modules/
 │   ├── utils/
@@ -140,3 +141,14 @@ GYM/
     ├── package.json
     ├── package-lock.json
     └── vite.config.js
+```
+
+
+## 🚀 Features
+
+* 💪 Beautiful modern design
+* 📬 Contact form with email sending (via Nodemailer)
+* 📊 BMI Calculator
+* 🖼️ Gallery and Workout sections
+* 💸 Pricing plans display
+* ⚡ Built with Vite.js for fast development
