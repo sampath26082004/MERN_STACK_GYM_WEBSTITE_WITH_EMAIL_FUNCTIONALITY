@@ -112,31 +112,31 @@ GYM/
 ├── backend/
 │   ├── node_modules/
 │   ├── utils/
-│   │   └── sendEmail.js
-│   ├── app.js
-│   ├── config.env
-│   ├── package.json
+│   │   └── sendEmail.js         # Email utility using Nodemailer
+│   ├── app.js                   # Entry point for backend
+│   ├── config.env               # Environment configuration
+│   ├── package.json             # Backend dependencies
 │   └── package-lock.json
 └── frontend/
-├── node_modules/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── BMICalculator.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Gallery.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── Pricing.jsx
-│   │   └── Workout.jsx
-│   ├── App.css
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css (or similar, inferred from App.css)
-├── .gitignore
-├── eslint.config.js
-├── index.html
-├── package.json
-├── package-lock.json
-└── vite.config.js
+    ├── node_modules/
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   │   ├── BMICalculator.jsx
+    │   │   ├── Contact.jsx
+    │   │   ├── Footer.jsx
+    │   │   ├── Gallery.jsx
+    │   │   ├── Hero.jsx
+    │   │   ├── Navbar.jsx
+    │   │   ├── Pricing.jsx
+    │   │   └── Workout.jsx
+    │   ├── App.css
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── index.css
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── package-lock.json
+    └── vite.config.js
