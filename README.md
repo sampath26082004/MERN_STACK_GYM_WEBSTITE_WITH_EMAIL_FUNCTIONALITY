@@ -108,3 +108,35 @@ Open your browser and navigate to `http://localhost:5173` (or the port Vite prov
 ## Project Structure
 
 The project is organized into `frontend` and `backend` directories.
+GYM/
+├── backend/
+│   ├── node_modules/
+│   ├── utils/
+│   │   └── sendEmail.js
+│   ├── app.js
+│   ├── config.env
+│   ├── package.json
+│   └── package-lock.json
+└── frontend/
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── BMICalculator.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Pricing.jsx
+│   │   └── Workout.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css (or similar, inferred from App.css)
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
